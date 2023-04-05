@@ -113,6 +113,34 @@ Analyze logs extracted, or sent from another user.
 .. code-block:: bash
 
     # sssctl analyze --logdir=/path/to/var/log/sssd request list
+  
+.. code-block:: bash
+
+    # sssctl analyze error
+    Usage: sss_analyze.py error [OPTIONS] COMMAND [ARGS]...
+
+    Error module
+
+    Options:
+    --help  Show this message and exit.
+
+    Commands:
+    list
+
+Error Checker
+****************
+
+``sssctl analyze error`` operates in one mode called **list** it display all the error msg from the sssd_be log.
+
+Command examples
+****************
+
+Print the commonly known error msg from the sssd_be log.
+
+.. code-block:: bash
+
+    # sssctl analyze error list
+
 
 Feedback
 ********

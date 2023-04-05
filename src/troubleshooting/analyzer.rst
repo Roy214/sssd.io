@@ -22,7 +22,7 @@ The ``sssctl analyze`` command uses git-like subcommand invocation.
 
     # sssctl analyze MODULE [ARGS]
 
-The only supported module currently is the **request** module. The request module is used to print logs associated with client requests made to SSSD.
+Currently there are two modules **request** and **error**. The request module is used to print logs associated with client requests made to SSSD.
 
 .. note::
 
